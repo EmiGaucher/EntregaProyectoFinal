@@ -74,6 +74,10 @@ body {
   margin: 0% auto;
   border: 1px #f8c076; }
 
+@media (max-width: 700px) {
+  body {
+    width: 100%; } }
+
 .headertitulo {
   border-radius: 4px;
   text-align: center;
@@ -163,6 +167,9 @@ body {
 
 .cardFooter {
   text-decoration: none; }
+
+.imagenlogo {
+  width: auto; }
 
 /* 404 page */
 .contenedorError404 {

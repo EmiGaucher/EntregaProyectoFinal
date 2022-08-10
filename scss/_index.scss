@@ -7,6 +7,11 @@ body {
     border: 1px $secondaryColor;
 }
 
+@media (max-width: 700px) {
+    body{
+    width: 100%;}
+}
+
 .headertitulo {
     border-radius: 4px;
     text-align: center;
@@ -24,7 +29,8 @@ body {
     background-repeat: no-repeat;
     background-size: 0% 2px;
     transition: background-size .3s;
-    &:hover{
+
+    &:hover {
         color: $black;
         font-weight: 600;
         background-size: 100% 2px;
@@ -117,4 +123,8 @@ body {
 
 .cardFooter {
     text-decoration: none;
+}
+
+.imagenlogo{
+    width: 100%;
 }
