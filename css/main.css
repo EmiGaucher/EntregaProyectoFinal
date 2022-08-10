@@ -76,7 +76,9 @@ body {
 
 @media (max-width: 700px) {
   body {
-    width: 100%; } }
+    width: 100%; }
+  .imagenlogo {
+    width: 200px; } }
 
 .headertitulo {
   border-radius: 4px;
@@ -101,7 +103,7 @@ body {
 
 /* ID botonera */
 #botonera img {
-  width: 400px; }
+  width: 300px; }
 
 .boton {
   width: 50%;
@@ -167,9 +169,6 @@ body {
 
 .cardFooter {
   text-decoration: none; }
-
-.imagenlogo {
-  width: auto; }
 
 /* 404 page */
 .contenedorError404 {
