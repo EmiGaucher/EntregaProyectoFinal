@@ -74,6 +74,10 @@ body {
   margin: 0% auto;
   border: 1px #f8c076; }
 
+@media (min-width: 950px) {
+  .col950 main {
+    display: flex; } }
+
 @media (max-width: 700px) {
   body {
     width: 100%; }
