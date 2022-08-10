@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3{
+    font-family: $secondaryColor;
+}
+h1{
+    font-size: $textXl;
+}
+h2{
+    font-size: $textMd;
+    font-weight: $negrita;
+}
+p{
+    font-family: $mainFont;
+    font-size: $textMd;
+    font-weight: $negrita;
+}
+small{
+    font-size: $textSm;
+    color: $mainColor;
+    text-decoration: none;
+}
+/*CLASES*/
+.parrafoLg{
+    font-size: $textLg;
+}
+/* TITULOS */
+.tituloMain {
+    display: flex;
+    justify-content: center;
+    color: $tituloColor;
+    font-size: $textXl;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.tituloH2 {
+    align-items: center;
+}
+
+/*CONTACTO*/
+.tituloContacto {
+    font-size: 300%;
+    color: antiquewhite;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.tituloContacto2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 300%;
+    color: antiquewhite;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
