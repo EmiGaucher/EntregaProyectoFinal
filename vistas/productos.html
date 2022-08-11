@@ -66,220 +66,238 @@
     <h1 class="tituloMain">Todos nuestros productos:</h1>
     <br>
     <main>
-        <div>
-            <div class="d-flex">
-                <div>
-                    <h3>Filtro de busqueda</h3>
-                    <label for="Apple">Apple</label>
-                    <input type="radio" id="apple" name="selección">
-                    <br>
-                    <label for="Samsung">Samsung</label>
-                    <input type="radio" id="Samsung" value="Samsung" name="selección">
-                    <br>
-                    <label for="Xiaomi">Xiaomi</label>
-                    <input type="radio" id="Xiaomi" name="selección">
-                    <br>
-                    <label for="Alcatel">Alcatel</label>
-                    <input type="radio" id="Alcatel" name="selección">
-                    <br>
-                    <label for="Huawei">Huawei</label>
-                    <input type="radio" id="Huawei" name="selección">
-                    <br>
-                    <label for="Lenovo">Lenovo</label>
-                    <input type="radio" id="Lenovo" name="selección">
-                    <br>
-                    <label for="Motorola">Motorola</label>
-                    <input type="radio" id="Motorola" name="selección">
-                    <br>
-                    <label for="Nokia">Nokia</label>
-                    <input type="radio" id="Nokia" name="selección">
-                    <br>
-                    <label for="ZTE">ZTE</label>
-                    <input type="radio" id="ZTE" name="selección">
-                    <br>
-                    <label for="TCL">TCL</label>
-                    <input type="radio" id="TCL" name="selección">
-                    <legend>Marcas</legend>
-                    <br>
-                    <legend>Capacidad</legend>
-                    <label for="1TB">1TB</label>
-                    <input type="radio" id="1TB" name="selección">
-                    <br>
-                    <label for="512GB">512GB</label>
-                    <input type="radio" id="512GB" name="selección">
-                    <br>
-                    <label for="256GB">256GB</label>
-                    <input type="radio" id="256GB" name="selección">
-                    <br>
-                    <label for="128GB">128GB</label>
-                    <input type="radio" id="128GB" name="selección">
-                    <br>
-                    <label for="64GB">64GB</label>
-                    <input type="radio" id="64GB" name="selección">
-                    <br>
-                    <label for="32GB">32GB</label>
-                    <input type="radio" id="32GB" name="selección">
-                    <br>
-                    <label for="4GB">4GB</label>
-                    <input type="radio" id="4GB" name="selección">
-                    <br>
-                    <legend>Rango de precio</legend>
-                    <input id="form:inputMin" name="form:inputMin" type="text" value="" style="width:40%"
-                        placeholder="mínimo">
-                    <input id="form:inputMax" name="form:inputMax" type="text" value="" style="width:40%"
-                        placeholder="máximo">
-                    <br>
-                    <br>
-                    <input type="submit" value="Buscar" class="btn bg-light">
-                </div>
-                </section>
+        <div class="d-flex">
+            <div class="col-4">
+                <h3>Filtro de busqueda</h3>
+                <label for="Apple">Apple</label>
+                <input type="radio" id="apple" name="selección">
                 <br>
-                <div
-                    class="container-fluid row row-cols-1 row-cols-xl-2 g-4 container-fluid py-3 wow bounceInRight scroll">
-                    <div class="col">
-                        <div class="contenedorHover">
-                            <a href="../vistas/404NotFound.html">
-                                <figure>
-                                    <img src="../img/airpods1.jpg" class="card-img-top" alt="AirPods">
-                                    <div class="capa">
-                                        <h5 class="card-title">AirPods</h5>
-                                        <p class="card-text">Acceso rápido a Siri diciendo «Oye Siri»
-                                            Más de 24 horas de tiempo de escucha total con el estuche de carga
-                                            Configuración sin esfuerzo, detección en el oído y cambio automático para una experiencia mágica
-                                            Comparte audio fácilmente entre dos juegos de AirPods en tu iPhone, iPad, iPod touch o Apple TV</p>
-                                            <p class="card-text">U$S149.99</p>
-                                    </div>
-                                    <div class="card-footer">
-                                        <small>Última actualización hace 3 minutos</small>
-                                    </div>
-                                </figure>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="contenedorHover">
-                            <a href="../vistas/404NotFound.html">
-                                <figure>
-                                    <img src="../img/airpodspro.jpg" class="card-img-top" alt="airpodspro">
-                                    <div class="capa">
-                                        <h5 class="card-title">Airpods PRO</h5>
-                                        <p class="card-text">Cancelación activa del ruido para un sonido envolvente
-                                            Modo de transparencia para escuchar y conectar con el mundo que te rodea
-                                            Tres tamaños de puntas de silicona suaves y cónicas para un ajuste personalizable
-                                            Resistente al sudor y al agua El
-                                            ecualizador adaptable ajusta automáticamente la música a la forma de tu oído</p>
-                                            <p class="card-text">U$S159.99</p>
-                                    </div>
-                                    <div class="card-footer">
-                                        <small>Última actualización hace 3 minutos</small>
-                                    </div>
-                                </figure>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="contenedorHover">
-                            <a href="../vistas/404NotFound.html">
-                                <figure>
-                                    <img src="../img/cable1usb.jpg" class="card-img-top" alt="...">
-                                    <div class="capa">
-                                        <h5 class="card-title">Cable Usb iPhone</h5>
-                                        <p class="card-text">Conecta tu iPhone, iPad o iPod con conector Lightning a tu Mac con USB-C o Thunderbolt 3 (USB-C) para sincronizar y cargar, o a tu iPad con USB-C para cargarlo
-                                            También puedes usar este cable con tu adaptador de corriente USB‑C de 18 W, 20 W, 29 W, 30 W, 61 W, 87 W o 96 W de Apple para cargar tu dispositivo iOS
-                                            La función de carga rápida está disponible en algunos modelos de iPhone y iPad.</p>
-                                            <p class="card-text">U$S19.99</p>
-                                    </div>
-                                    <div class="card-footer">
-                                        <small>Última actualización hace 3 minutos</small>
-                                    </div>
-                                </figure>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="contenedorHover">
-                            <a href="../vistas/404NotFound.html">
-                                <figure>
-                                    <img src="../img/iphone-12-128gb-original-apple.jpg" class="card-img-top" alt="...">
-                                    <div class="capa">
-                                        <h5 class="card-title">iPhone 12</h5>
-                                        <p class="card-text">Compatibles con 5G. Chip A14 Bionic. Pantalla Super Retina
-                                            XDR.
-                                            Y
-                                            modo Noche en todas las cámaras.</p>
-                                    </div>
-                                    <div class="card-footer">
-                                        <small>Última actualización hace 3 minutos</small>
-                                    </div>
-                                </figure>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="contenedorHover">
-                            <a href="../vistas/404NotFound.html">
-                                <figure>
-                                    <img src="../img/iphone12azul.jpg" class="card-img-top" alt="iPhone 11">
-                                    <div class="capa">
-                                        <h5 class="card-title">iPhone 11</h5>
-                                        <p class="card-text">La cantidad justa de todo. Un nuevo sistema trasero de doble lente captura más de lo que ves y amas. El chip más rápido de todos los tiempos en un smartphone y la batería que dura todo el día te permiten hacer más y cargar menos. Y el vídeo de mayor calidad en un smartphone, para que tus recuerdos se vean mejor que nunca.</p>
-                                    </div>
-                                    <div class="card-footer">
-                                        <small>Última actualización hace 3 minutos</small>
-                                    </div>
-                                </figure>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="contenedorHover">
-                            <a href="../vistas/404NotFound.html">
-                                <figure>
-                                    <img src="../img/iphone11pro.jpg" class="card-img-top" alt="iPhone 11 PRO">
-                                    <div class="capa">
-                                        <h5 class="card-title">iPhone 11 Pro</h5>
-                                        <p class="card-text">iPhone 11 Pro. Pantalla Super Retina XDR de 6,1 pulgadas con Ceramic Shield que es 4 veces más resistente a caídas. Fotos sorprendentes en poca luz con el nuevo sistema de cámara Pro y alcance de zoom óptico de 4x. Reproducción, edición y grabación de videos en Dolby Visión con cálido de cine. Retratos con modo Noche y experiencia aún mejores en realidad aumentada con el Scanner LiDAR. </p>
-                                    </div>
-                                    <div class="card-footer">
-                                        <small class="text-muted">Última actualización hace 3 minutos</small>
-                                    </div>
-                                </figure>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="contenedorHover">
-                            <a href="../vistas/404NotFound.html">
-                                <figure>
-                                    <img src="../img/iphone11rojo.jpg" class="card-img-top" alt="iPhone11mini">
-                                    <div class="capa">
-                                        <h5 class="card-title">iPhone 11 mini rojo</h5>
-                                        <p class="card-text">iPhone 13 mini. El sistema de dos cámaras más avanzado en un iPhone. El superrápido chip A15 Bionic. Un salto en duración de batería. Un diseño resistente. Y una pantalla Super Retina XDR más brillante. </p>
-                                    </div>
-                                    <div class="card-footer">
-                                        <small class="text-muted">Última actualización hace 3 minutos</small>
-                                    </div>
-                                </figure>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="contenedorHover">
-                            <a href="../vistas/404NotFound.html">
-                                <figure>
-                                    <img src="../img/iphone-12mininegro.jpg" class="card-img-top" alt="iPhone12mini">
-                                    <div class="capa">
-                                        <h5 class="card-title">iPhone 12 mini negro</h5>
-                                        <p class="card-text">iPhone 13 mini. El sistema de dos cámaras más avanzado en un iPhone. El superrápido chip A15 Bionic. Un salto en duración de batería. Un diseño resistente. Y una pantalla Super Retina XDR más brillante. </p>
-                                    </div>
-                                    <div class="card-footer">
-                                        <small class="text-muted">Última actualización hace 3 minutos</small>
-                                    </div>
-                                </figure>
-                            </a>
-                        </div>
+                <label for="Samsung">Samsung</label>
+                <input type="radio" id="Samsung" value="Samsung" name="selección">
+                <br>
+                <label for="Xiaomi">Xiaomi</label>
+                <input type="radio" id="Xiaomi" name="selección">
+                <br>
+                <label for="Alcatel">Alcatel</label>
+                <input type="radio" id="Alcatel" name="selección">
+                <br>
+                <label for="Huawei">Huawei</label>
+                <input type="radio" id="Huawei" name="selección">
+                <br>
+                <label for="Lenovo">Lenovo</label>
+                <input type="radio" id="Lenovo" name="selección">
+                <br>
+                <label for="Motorola">Motorola</label>
+                <input type="radio" id="Motorola" name="selección">
+                <br>
+                <label for="Nokia">Nokia</label>
+                <input type="radio" id="Nokia" name="selección">
+                <br>
+                <label for="ZTE">ZTE</label>
+                <input type="radio" id="ZTE" name="selección">
+                <br>
+                <label for="TCL">TCL</label>
+                <input type="radio" id="TCL" name="selección">
+                <legend>Marcas</legend>
+                <br>
+                <legend>Capacidad</legend>
+                <label for="1TB">1TB</label>
+                <input type="radio" id="1TB" name="selección">
+                <br>
+                <label for="512GB">512GB</label>
+                <input type="radio" id="512GB" name="selección">
+                <br>
+                <label for="256GB">256GB</label>
+                <input type="radio" id="256GB" name="selección">
+                <br>
+                <label for="128GB">128GB</label>
+                <input type="radio" id="128GB" name="selección">
+                <br>
+                <label for="64GB">64GB</label>
+                <input type="radio" id="64GB" name="selección">
+                <br>
+                <label for="32GB">32GB</label>
+                <input type="radio" id="32GB" name="selección">
+                <br>
+                <label for="4GB">4GB</label>
+                <input type="radio" id="4GB" name="selección">
+                <br>
+                <legend>Rango de precio</legend>
+                <input id="form:inputMin" name="form:inputMin" type="text" value="" style="width:40%"
+                    placeholder="mínimo">
+                <input id="form:inputMax" name="form:inputMax" type="text" value="" style="width:40%"
+                    placeholder="máximo">
+                <br>
+                <br>
+                <input type="submit" value="Buscar" class="btn bg-light">
+            </div>
+            <br>
+            <div class="col-8 container-fluid row row-cols-1 row-cols-xl-2 g-4 py-3 wow bounceInRight scroll">
+                <div d-flex>
+                    <div class="contenedorHover">
+                        <a href="../vistas/404NotFound.html">
+                            <figure>
+                                <img src="../img/airpods1.jpg" class="card-img-top" alt="AirPods">
+                                <div class="capa">
+                                    <h5 class="card-title">AirPods</h5>
+                                    <p class="card-text">Acceso rápido a Siri diciendo «Oye Siri»
+                                        Más de 24 horas de tiempo de escucha total con el estuche de carga
+                                        Configuración sin esfuerzo, detección en el oído y cambio automático para
+                                        una experiencia mágica
+                                        Comparte audio fácilmente entre dos juegos de AirPods en tu iPhone, iPad,
+                                        iPod touch o Apple TV</p>
+                                    <p class="card-text">U$S149.99</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small>Última actualización hace 3 minutos</small>
+                                </div>
+                            </figure>
+                        </a>
                     </div>
                 </div>
+                <div class="col">
+                    <div class="contenedorHover">
+                        <a href="../vistas/404NotFound.html">
+                            <figure>
+                                <img src="../img/airpodspro.jpg" class="card-img-top" alt="airpodspro">
+                                <div class="capa">
+                                    <h5 class="card-title">Airpods PRO</h5>
+                                    <p class="card-text">Cancelación activa del ruido para un sonido envolvente
+                                        Modo de transparencia para escuchar y conectar con el mundo que te rodea
+                                        Tres tamaños de puntas de silicona suaves y cónicas para un ajuste
+                                        personalizable
+                                        Resistente al sudor y al agua El
+                                        ecualizador adaptable ajusta automáticamente la música a la forma de tu oído
+                                    </p>
+                                    <p class="card-text">U$S159.99</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small>Última actualización hace 3 minutos</small>
+                                </div>
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="contenedorHover">
+                        <a href="../vistas/404NotFound.html">
+                            <figure>
+                                <img src="../img/cable1usb.jpg" class="card-img-top" alt="...">
+                                <div class="capa">
+                                    <h5 class="card-title">Cable Usb iPhone</h5>
+                                    <p class="card-text">Conecta tu iPhone, iPad o iPod con conector Lightning a tu
+                                        Mac con USB-C o Thunderbolt 3 (USB-C) para sincronizar y cargar, o a tu iPad
+                                        con USB-C para cargarlo
+                                        También puedes usar este cable con tu adaptador de corriente USB‑C de 18 W,
+                                        20 W, 29 W, 30 W, 61 W, 87 W o 96 W de Apple para cargar tu dispositivo iOS
+                                        La función de carga rápida está disponible en algunos modelos de iPhone y
+                                        iPad.</p>
+                                    <p class="card-text">U$S19.99</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small>Última actualización hace 3 minutos</small>
+                                </div>
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="contenedorHover">
+                        <a href="../vistas/404NotFound.html">
+                            <figure>
+                                <img src="../img/iphone-12-128gb-original-apple.jpg" class="card-img-top" alt="...">
+                                <div class="capa">
+                                    <h5 class="card-title">iPhone 12</h5>
+                                    <p class="card-text">Compatibles con 5G. Chip A14 Bionic. Pantalla Super Retina
+                                        XDR.
+                                        Y
+                                        modo Noche en todas las cámaras.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small>Última actualización hace 3 minutos</small>
+                                </div>
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="contenedorHover">
+                        <a href="../vistas/404NotFound.html">
+                            <figure>
+                                <img src="../img/iphone12azul.jpg" class="card-img-top" alt="iPhone 11">
+                                <div class="capa">
+                                    <h5 class="card-title">iPhone 11</h5>
+                                    <p class="card-text">La cantidad justa de todo. Un nuevo sistema trasero de
+                                        doble lente captura más de lo que ves y amas. El chip más rápido de todos
+                                        los tiempos en un smartphone y la batería que dura todo el día te permiten
+                                        hacer más y cargar menos. Y el vídeo de mayor calidad en un smartphone, para
+                                        que tus recuerdos se vean mejor que nunca.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small>Última actualización hace 3 minutos</small>
+                                </div>
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="contenedorHover">
+                        <a href="../vistas/404NotFound.html">
+                            <figure>
+                                <img src="../img/iphone11pro.jpg" class="card-img-top" alt="iPhone 11 PRO">
+                                <div class="capa">
+                                    <h5 class="card-title">iPhone 11 Pro</h5>
+                                    <p class="card-text">iPhone 11 Pro. Pantalla Super Retina XDR de 6,1 pulgadas
+                                        con Ceramic Shield que es 4 veces más resistente a caídas. Fotos
+                                        sorprendentes en poca luz con el nuevo sistema de cámara Pro y alcance de
+                                        zoom óptico de 4x. Reproducción, edición y grabación de videos en Dolby
+                                        Visión con cálido de cine. Retratos con modo Noche y experiencia aún mejores
+                                        en realidad aumentada con el Scanner LiDAR. </p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">Última actualización hace 3 minutos</small>
+                                </div>
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="contenedorHover">
+                        <a href="../vistas/404NotFound.html">
+                            <figure>
+                                <img src="../img/iphone11rojo.jpg" class="card-img-top" alt="iPhone11mini">
+                                <div class="capa">
+                                    <h5 class="card-title">iPhone 11 mini rojo</h5>
+                                    <p class="card-text">iPhone 13 mini. El sistema de dos cámaras más avanzado en
+                                        un iPhone. El superrápido chip A15 Bionic. Un salto en duración de batería.
+                                        Un diseño resistente. Y una pantalla Super Retina XDR más brillante. </p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">Última actualización hace 3 minutos</small>
+                                </div>
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="contenedorHover">
+                        <a href="../vistas/404NotFound.html">
+                            <figure>
+                                <img src="../img/iphone-12mininegro.jpg" class="card-img-top" alt="iPhone12mini">
+                                <div class="capa">
+                                    <h5 class="card-title">iPhone 12 mini negro</h5>
+                                    <p class="card-text">iPhone 13 mini. El sistema de dos cámaras más avanzado en
+                                        un iPhone. El superrápido chip A15 Bionic. Un salto en duración de batería.
+                                        Un diseño resistente. Y una pantalla Super Retina XDR más brillante. </p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">Última actualización hace 3 minutos</small>
+                                </div>
+                            </figure>
+                        </a>
+                    </div>
+                </div>>
+            </div>
     </main>
     <!-- Empieza Footer -->
     <footer class="text-center text-lg-start bg-light text-muted">
@@ -291,7 +309,8 @@
                         <h6 class="text-uppercase fw-bold mb-4">
                             <i class="fas fa-gem me-3"></i>Mi Celu
                         </h6>
-                        <p>Nuestra intención brindar el mejor servicio y los mejores productos al mejor precio con el fin de ser accecibles para todo público.</p>
+                        <p>Nuestra intención brindar el mejor servicio y los mejores productos al mejor precio con el
+                            fin de ser accecibles para todo público.</p>
                     </div>
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                         <!-- Links -->
